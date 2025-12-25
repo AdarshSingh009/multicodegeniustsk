@@ -26,6 +26,7 @@ export default function Home() {
   }));
   const [showAll, setShowAll] = useState(false);
   const visibleProducts = showAll ? products : products.slice(0, 4);
+  const topProducts = products.slice(0, 4);
   return (
     <>
       <div className="mt-[78px] bg-[#f2f0f1] flex flex-row items-center justify-center w-full">
@@ -85,10 +86,7 @@ export default function Home() {
           </div>
           <div className="grid [grid-template-columns:repeat(auto-fill,minmax(295px,1fr))] gap-5 w-full [place-items:center]">
             {visibleProducts.map((item) => (
-              <div
-                key={item.id}
-                className="space-y-4"
-              >
+              <div key={item.id} className="space-y-4">
                 <div className="w-[295px] h-[298px]">
                   <Image
                     src={item.image}
@@ -109,13 +107,15 @@ export default function Home() {
                       </span>
                     ))}
                     <div className="md:text-sm text-xs text-black font-satoshi">
-                      {item.rating}{' '}
+                      {item.rating}{" "}
                       <span className="text-[#00000099] font-satoshi">
                         {item.trating}
                       </span>
                     </div>
                   </div>
-                  <div className="md:text-2xl text-xl text-black font-bold font-satoshi">{item.price}</div>
+                  <div className="md:text-2xl text-xl text-black font-bold font-satoshi">
+                    {item.price}
+                  </div>
                 </div>
               </div>
             ))}
@@ -140,11 +140,8 @@ export default function Home() {
             TOP SELLING
           </div>
           <div className="grid [grid-template-columns:repeat(auto-fill,minmax(295px,1fr))] gap-5 w-full [place-items:center]">
-            {visibleProducts.map((item) => (
-              <div
-                key={item.id}
-                className="space-y-4"
-              >
+            {topProducts.map((item) => (
+              <div key={item.id} className="space-y-4">
                 <div className="w-[295px] h-[298px]">
                   <Image
                     src={ClothImage1}
@@ -165,13 +162,15 @@ export default function Home() {
                       </span>
                     ))}
                     <div className="md:text-sm text-xs text-black font-satoshi">
-                      {item.rating}{' '}
+                      {item.rating}{" "}
                       <span className="text-[#00000099] font-satoshi">
                         {item.trating}
                       </span>
                     </div>
                   </div>
-                  <div className="md:text-2xl text-xl text-black font-bold font-satoshi">{item.price}</div>
+                  <div className="md:text-2xl text-xl text-black font-bold font-satoshi">
+                    {item.price}
+                  </div>
                 </div>
               </div>
             ))}
@@ -240,9 +239,15 @@ export default function Home() {
             <p className="block my-[1em] mx-0 text-black font-satoshi text-[16px] font-medium leading-[18px] tracking-[3px] uppercase">
               HELP
             </p>
-            <a href="#" className="font-satoshi leading-[1.375]">Privacy statement</a>
-            <a href="#" className="font-satoshi leading-[1.375]">Terms & Conditions</a>
-            <a href="#" className="font-satoshi leading-[1.375]">Cookie Policy</a>
+            <a href="#" className="font-satoshi leading-[1.375]">
+              Privacy statement
+            </a>
+            <a href="#" className="font-satoshi leading-[1.375]">
+              Terms & Conditions
+            </a>
+            <a href="#" className="font-satoshi leading-[1.375]">
+              Cookie Policy
+            </a>
           </div>
         </div>
       </div>
