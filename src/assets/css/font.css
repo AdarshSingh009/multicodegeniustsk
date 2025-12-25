@@ -1,0 +1,122 @@
+/* Integral */
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFBoldRegular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Demi';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFHeavyRegular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Demi';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFMediumRegular.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFMediumRegular.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFMediumRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFRegular.woff2') format('woff2'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFRegular.woff') format('woff'),
+        url('../font/integral-cf/FONTSPRINGDEMO-IntegralCFRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Satoshi */
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/satoshi/Satoshi-Bold.woff2') format('woff2'),
+        url('../font/satoshi/Satoshi-Bold.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/satoshi/Satoshi-Black.woff2') format('woff2'),
+        url('../font/satoshi/Satoshi-Black.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/satoshi/Satoshi-Regular.woff2') format('woff2'),
+        url('../font/satoshi/Satoshi-Regular.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/satoshi/Satoshi-Light.woff2') format('woff2'),
+        url('../font/satoshi/Satoshi-Light.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/satoshi/Satoshi-Medium.woff2') format('woff2'),
+        url('../font/satoshi/Satoshi-Medium.woff') format('woff'),
+        url('../font/satoshi/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
