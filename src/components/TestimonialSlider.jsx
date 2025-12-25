@@ -28,12 +28,14 @@ const PrevArrow = ({ onClick }) => {
 const TestimonialSlider = () => {
   var settings = {
     dots: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />
+    prevArrow: <PrevArrow />,
   };
   return (
     <div className="relative">
